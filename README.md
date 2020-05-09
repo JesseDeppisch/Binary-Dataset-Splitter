@@ -27,6 +27,7 @@ file named "1.png". If these are both sent to the train directory, the
 one that appears in the directory will be the NON-AUGMENTED version!
     
 Example directory before starting:
+```
     - all_malign
         - sample_1.png
         - sample_2.png
@@ -34,8 +35,10 @@ Example directory before starting:
         - sample_1.png
         - sample_2.png
     - this script (binary_dataset_splitter.py)
+```
     
 And the resulting directory after running this script:
+```
     - all_malign
         - sample_1.png
         - sample_2.png
@@ -66,10 +69,11 @@ And the resulting directory after running this script:
                 - some samples...
             - malign
                 - some samples...
-                
+```
+
 ### TODO - implement below features if necessary in the future
-    * Speed up the script
-    * Add print statements to indicate progress
-    * Use a config file (text file or YAML) instead of directly editing this file
-    * Change labels "benign" and "malignant" to user-defined labels
-    * Extend capabilities for multiple classes instead of just binary
+* Speed up the script
+* Add print statements to indicate progress
+* Use a config file (text file or YAML) instead of directly editing this file
+* Change labels "benign" and "malignant" to user-defined labels
+* Extend capabilities for multiple classes instead of just binary
